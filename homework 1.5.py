@@ -12,7 +12,7 @@ if revenue > cost:
     profitability = (revenue - cost) / (revenue / 100)
     print("Поздравляем, Ваша компания приносит прибыль! Рентабельность компании: ", profitability, "%")
     employees = int(input("Введите численность сотрудников: "))
-    print('Прибыль на сотрудника составила: ', (revenue-cost)/employees)
+    print('Прибыль на сотрудника составила: ', int((revenue - cost) / employees))
 elif revenue == cost:
     print("Компания не зарабатывает! Доходы равны расходам!")
 else:
