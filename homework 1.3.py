@@ -8,3 +8,7 @@ n2 = n0 + n0 + n0
 summa = n + int(n1) + int(n2)
 
 print("Сумма чисел n + nn + nnn:", summa)
+
+# Алтернативное решение
+
+print(f"{n} + {n + n} + {n + n + n} = {int(n) + int(n + n) + int(n + n + n)}")
