@@ -53,7 +53,6 @@ class TrafficLight:
 		green_light.penup()
 		green_light.setposition(0, -40)
 
-		n = 1
 		for n in range(10):
 			red_light.color('red')
 			time.sleep(7)
